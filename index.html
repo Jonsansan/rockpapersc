@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>R.P.S game</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,12 +25,28 @@
       Liuyanzhai also mentions this game, calling it shoushiling (t. 手勢令; s.
       手势令), huozhitou (t. 豁指頭; s. 豁指头), or huaquan (划拳).
     </p>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+
     <p>results:</p>
+    <div class="container-for-buttons">
+      <!-- From Uiverse.io by WhiteNervosa -->
+      <div class="customCheckBoxHolder">
+        <input type="checkbox" id="cCB1" class="customCheckBoxInput" />
+        <label for="cCB1" class="customCheckBoxWrapper">
+          <div class="customCheckBox">
+            <div class="inner">play</div>
+          </div>
+        </label>
+      </div>
+      <div class="customCheckBoxHolder">
+        <input type="checkbox" id="cCB2" class="customCheckBoxInput" />
+        <label for="cCB2" class="customCheckBoxWrapper">
+          <div class="customCheckBox">
+            <div class="inner">clear results</div>
+          </div>
+        </label>
+      </div>
+    </div>
     <script src="sandbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
