@@ -12,6 +12,21 @@ press-start-2p-regular {
   font-weight: 400;
   font-style: normal;
 }
+
+.scissors-photo {
+  height: 50px;
+  width: 50px;
+}
+.paper-photo {
+  height: 50px;
+  width: 50px;
+}
+#img-col {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+
 /* From Uiverse.io by WhiteNervosa */
 .customCheckBoxHolder {
   margin: 5px;
