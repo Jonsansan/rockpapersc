@@ -21,10 +21,13 @@ press-start-2p-regular {
   height: 50px;
   width: 50px;
 }
+.rock-photo {
+  height: 70px;
+  width: 100px;
+}
 #img-col {
   display: flex;
-  justify-content: center;
-  gap: 44px;
+  justify-content: right;
 }
 
 /* From Uiverse.io by WhiteNervosa */
