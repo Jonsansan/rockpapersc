@@ -98,3 +98,16 @@ press-start-2p-regular {
 .customCheckBoxWrapper .customCheckBox:hover .inner {
   transform: translateY(-2px);
 }
+
+/* From Uiverse.io by anniekoop */
+.input {
+  height: 20px;
+  max-width: 190px;
+  padding: 0.875rem;
+  font-size: 1rem;
+
+  border-radius: 0.5rem;
+
+  outline: none;
+  transition: ease 0.25s;
+}
