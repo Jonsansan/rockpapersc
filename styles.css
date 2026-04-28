@@ -13,21 +13,16 @@ press-start-2p-regular {
   font-style: normal;
 }
 
-.scissors-photo {
+.paper-photo,
+.rock-photo,
+.scissors-photo,
+.human-photo,
+.gpt-photo {
   height: 50px;
   width: 50px;
 }
-.paper-photo {
-  height: 50px;
-  width: 50px;
-}
-.rock-photo {
-  height: 70px;
-  width: 100px;
-}
+
 #img-col {
-  display: flex;
-  justify-content: right;
 }
 
 /* From Uiverse.io by WhiteNervosa */
