@@ -37,7 +37,7 @@ p {
   flex-wrap: nowrap;           
   gap: 12px;                   
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 6px;
   overflow: visible;           /
 }
