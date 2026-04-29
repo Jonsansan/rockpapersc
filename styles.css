@@ -2,7 +2,7 @@
 * { box-sizing: border-box; }
 html, body { height: 100%; }
 body {
-  background-color: #6a6a00;
+  background-color: #99AD7A;
   margin: 12px;
   padding: 12px;
   font-family: "Press Start 2P", system-ui, sans-serif;
@@ -11,6 +11,7 @@ body {
 
 p {
   font-size: 8px;
+  color: black;
   font-family: "Press Start 2P", system-ui, monospace;
   font-weight: 400;
   font-style: normal;
@@ -48,7 +49,6 @@ p {
 .customCheckBox {
   width: fit-content;
   position: relative;
-  /* overflow: hidden;  <-- removed to avoid clipping */
   cursor: pointer;
   user-select: none;
   padding: 2px 8px;
@@ -87,7 +87,6 @@ p {
 
 .customCheckBoxInput { display: none; }
 
-/* Input class fixed */
 .input {
   height: 20px;
   max-width: 190px;
