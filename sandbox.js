@@ -1,3 +1,8 @@
-let usernameenter = document.getElementById("username-input");
+let playbutton = document.getElementById("play-bttn");
+let resultbutton = document.getElementById("wipe-result-bttn");
+let username = document.getElementById("username-input");
 
-function game() {}
+function gol() {
+  document.getElementById("username-inputInput");
+  console.log("username-inputInput");
+}
