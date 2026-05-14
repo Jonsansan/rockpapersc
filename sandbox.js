@@ -11,7 +11,7 @@ playbutton.addEventListener("click", function () {
   const name = usernamebox.value;
   console.log(name);
 
-  if (name) {
+  if (!name) {
     console.log("");
     alert("input needed to play");
   }
