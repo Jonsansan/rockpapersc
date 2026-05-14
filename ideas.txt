@@ -3,3 +3,17 @@ will needv to use alert to tell user to put in user if they try to play without
 
 
 use https://uiverse.io/bociKond/wise-bat-13 for loader
+
+
+
+playbutton.addEventListener("click", function () {
+  const name = usernamebox.value.trim();
+
+  if (!name) {
+    alert("Input needed to play");
+    return;
+  }
+
+  // continue game start logic here, e.g.:
+  console.log("Starting game for:", name);
+});
